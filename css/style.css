@@ -1,6 +1,45 @@
+
+
+
 .box {
 	width: 100px;
 	height: 100px;
 	border: 2px solid black;
-	margin: 20px;
+	text-align: center;
+}
+
+#topLeft {
+	border-top: none;
+	border-left: none;
+}
+
+#topCenter {
+	border-top: none;
+}
+
+#topRight {
+	border-top: none;
+	border-right: none;
+}
+
+#midLeft {
+	border-left: none;
+}
+
+#midRight {
+	border-right: none;
+}
+
+#botLeft {
+	border-left: none;
+	border-bottom: none;
+}
+
+#botCenter {
+	border-bottom: none;
+}
+
+#botRight {
+	border-right: none;
+	border-bottom: none;
 }
