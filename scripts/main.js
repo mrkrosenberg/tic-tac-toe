@@ -4,11 +4,13 @@ $(document).ready( function () {
 	$o = "O";
 
 	console.log("works");
-	
+
 	$('.box').click( function () {
 		$(this).html('X');
-		if (click%2 == 0) {
-
+		if ($clickCounter % 2 == 0) {
+			$(this).append($x);
+		} else {
+			
 		}
 	});
 
