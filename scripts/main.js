@@ -14,7 +14,6 @@ $(document).ready( function () {
 			$clickCounter = $clickCounter + 1;
 		}
 		
-	
 
 	});
 
