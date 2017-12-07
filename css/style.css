@@ -10,38 +10,38 @@
 	text-align: center;
 }
 
-#topLeft {
+#box1 {
 	border-top: none;
 	border-left: none;
 }
 
-#topCenter {
+#box2 {
 	border-top: none;
 }
 
-#topRight {
+#box3 {
 	border-top: none;
 	border-right: none;
 }
 
-#midLeft {
+#box4 {
 	border-left: none;
 }
 
-#midRight {
+#box6 {
 	border-right: none;
 }
 
-#botLeft {
+#box7 {
 	border-left: none;
 	border-bottom: none;
 }
 
-#botCenter {
+#box8 {
 	border-bottom: none;
 }
 
-#botRight {
+#box9 {
 	border-right: none;
 	border-bottom: none;
 }
