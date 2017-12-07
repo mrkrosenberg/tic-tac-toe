@@ -6,12 +6,16 @@ $(document).ready( function () {
 	console.log("works");
 
 	$('.box').click( function () {
-		$(this).html('X');
 		if ($clickCounter % 2 == 0) {
-			$(this).append($x);
-		} else {
-			
+			$(this).html($x);
+			$clickCounter = $clickCounter + 1;
+		} else  {
+			$(this).html($o);
+			$clickCounter = $clickCounter + 1;
 		}
+		
+	
+
 	});
 
 
